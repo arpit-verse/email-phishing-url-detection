@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+.venv-api/
+.venv-psl-audit/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local datasets and downloaded models
+/dataset/
+/models/
+*.pkl
+
+# Row-level audits and run metadata
+results/baseline_audit/*_errors.csv
+results/baseline_audit/run_metadata.json
+results/email_sensitivity_audit/row_level_counterfactuals.csv
+results/email_sensitivity_audit/run_metadata.json
+
+# Frontend generated files
+frontend/node_modules/
+frontend/dist/
+
+# Secrets and temporary files
+.env
+.env.*
+*.pem
+*.key
+*.download
+*.tmp
+secrets.*
+credentials.*

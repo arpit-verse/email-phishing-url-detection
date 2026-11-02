@@ -1,0 +1,2 @@
+n_samples,legitimate_count,phishing_count,accuracy,precision_phishing,recall_phishing,f1_phishing,roc_auc_phishing,true_negative,false_positive,false_negative,true_positive
+16416,7847,8569,0.9847100389863548,0.9829307942405945,0.9878632279145758,0.9853908387171876,0.998709231368156,7700,147,104,8465
